@@ -4,7 +4,7 @@
     "project": "Autotesting api for reqres.in",
     "environment": "TEST",
     "comment": "Thank you for watching",
-    "reportLink": "https://jenkins.autotests.cloud/job/diploma_tokareva",
+    "reportLink": "https://jenkins.autotests.cloud/job/diploma_api_tokareva",
     "language": "ru",
     "allureFolder": "build/reports/allure-report/allureReport",
     "enableChart": true
