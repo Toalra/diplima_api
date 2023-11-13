@@ -4,7 +4,7 @@ batsettings.gradle
 build/
 gradle
 .idea
-
+notifications
 *.class
 
 .gradle

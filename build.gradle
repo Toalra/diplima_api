@@ -43,5 +43,15 @@ tasks.withType(Test) {
         }
     }
 }
+task diploma_api(type: Test) {
+    useTestNG()
+    useJUnitPlatform {
+        includeTags("registerUser")
+        includeTags("loginUser")
+        includeTags("createUser")
+        includeTags("updateUser")
+        includeTags("deleteUser")
+    }
+}
 
 

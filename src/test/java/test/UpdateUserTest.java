@@ -1,0 +1,40 @@
+package test;
+
+import models.UpdateUserRequestModel;
+import models.UpdateUserResponseModel;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Test;
+
+import static io.qameta.allure.Allure.step;
+import static io.restassured.RestAssured.given;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static spec.Specs.updateUserRequestSpec;
+import static spec.Specs.updateUserResponseSpec;
+
+@Tag("updateUser")
+public class UpdateUserTest extends TestBase {
+    @Test
+    @DisplayName("Успешное обновление пользователя")
+    void successUpdateUser() {
+        UpdateUserRequestModel updateUser = new UpdateUserRequestModel();
+        updateUser.setName("morpheus");
+        updateUser.setJob("zion resident");
+
+        UpdateUserResponseModel userUpdateResponse = step("Запрос на обновление пользователя", () ->
+                given(updateUserRequestSpec)
+                        .body(updateUser)
+                        .when()
+                        .put("/users/2")
+                        .then()
+                        .spec(updateUserResponseSpec)
+                        .extract().as(UpdateUserResponseModel.class));
+
+        step("Верификация обновленного пользователя", () -> {
+            assertEquals("morpheus", userUpdateResponse.getName());
+            assertEquals("zion resident", userUpdateResponse.getJob());
+            assertNotNull(userUpdateResponse.getUpdatedAt());
+        });
+    }
+}
