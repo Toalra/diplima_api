@@ -16,13 +16,13 @@ import static spec.Specs.updateUserResponseSpec;
 @Tag("updateUser")
 public class UpdateUserTest extends TestBase {
     @Test
-    @DisplayName("Успешное обновление пользователя")
+    @DisplayName("Success update user")
     void successUpdateUser() {
         UpdateUserRequestModel updateUser = new UpdateUserRequestModel();
         updateUser.setName("morpheus");
         updateUser.setJob("zion resident");
 
-        UpdateUserResponseModel userUpdateResponse = step("Запрос на обновление пользователя", () ->
+        UpdateUserResponseModel userUpdateResponse = step("Request update user", () ->
                 given(updateUserRequestSpec)
                         .body(updateUser)
                         .when()
@@ -31,7 +31,7 @@ public class UpdateUserTest extends TestBase {
                         .spec(updateUserResponseSpec)
                         .extract().as(UpdateUserResponseModel.class));
 
-        step("Верификация обновленного пользователя", () -> {
+        step("Verification updated user", () -> {
             assertEquals("morpheus", userUpdateResponse.getName());
             assertEquals("zion resident", userUpdateResponse.getJob());
             assertNotNull(userUpdateResponse.getUpdatedAt());

@@ -12,9 +12,9 @@ import static spec.Specs.deleteUserResponseSpec;
 @Tag("deleteUser")
 public class DeleteUserTest extends TestBase {
     @Test
-    @DisplayName("Успешное удаление пользователя")
+    @DisplayName("Success delete user")
     void successDeleteUser() {
-        step("Удаление пользователя", () -> {
+        step("Delete user", () -> {
             given(deleteUserRequestSpec)
                     .delete("/users/2")
                     .then()

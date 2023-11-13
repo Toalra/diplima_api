@@ -14,13 +14,13 @@ import static spec.Specs.createUserResponseSpec;
 @Tag("createUser")
 public class CreateUserTest extends TestBase {
     @Test
-    @DisplayName("Успешное создание пользователя")
+    @DisplayName("Success create user")
     void successCreateUser() {
         CreateUserRequestModel regBody = new CreateUserRequestModel();
         regBody.setName("morpheus");
         regBody.setJob("leader");
 
-        CreateUserResponseModel userCreateResponse = step("Запрос на создание пользователя", () ->
+        CreateUserResponseModel userCreateResponse = step("Request create user", () ->
                 given(createUserRequestSpec)
                         .body(regBody)
                         .post("/users")
@@ -28,7 +28,7 @@ public class CreateUserTest extends TestBase {
                         .spec(createUserResponseSpec)
                         .extract().as(CreateUserResponseModel.class));
 
-        step("Верификация созданного пользователя", () -> {
+        step("Verification created user", () -> {
             assertEquals("morpheus", userCreateResponse.getName());
             assertEquals("leader", userCreateResponse.getJob());
             assertNotNull(userCreateResponse.getId());

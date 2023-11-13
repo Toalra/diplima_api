@@ -15,20 +15,20 @@ import static spec.Specs.loginResponseSpec;
 @Tag("loginUser")
 public class LoginUserTest extends TestBase {
     @Test
-    @DisplayName("Успешный вход пользователя")
+    @DisplayName("Success login user")
     void successLoginUser() {
         LoginUserRequestModel regBody = new LoginUserRequestModel();
         regBody.setEmail("eve.holt@reqres.in");
         regBody.setPassword("cityslicka");
 
-        LoginResponseModel loginResponse = step("Запрос на логин пользователя", () ->
+        LoginResponseModel loginResponse = step("Request login user", () ->
                 given(loginRequestSpec)
                         .body(regBody)
                         .post("/login")
                         .then()
                         .spec(loginResponseSpec)
                         .extract().as(LoginResponseModel.class));
-        step("Верификация залогиненного пользователя", () ->
+        step("Verification login user", () ->
                 assertEquals("QpwL5tke4Pnpja7X4", loginResponse.getToken()));
     }
 }
