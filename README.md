@@ -45,27 +45,27 @@ gradle clean diploma_test
 <h2><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jenkins.svg" wight="30" height="30"/><a>Сборка в </a>
   <a href="https://jenkins.autotests.cloud/job/diploma_api_tokarevaa"> Jenkins</a></h2>
   <a class="heading-link" href="#-сборка-в-jenkins"></a>
-<a title="jenkinsReport"><img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/commonJenkinsResult.png" wight="500" height="500"/></a>
+<a title="jenkinsReport"><img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/commonJenkinsResult.png" style="max-width: 100%;"/></a>
 <h3><a>Overwies в </a>
 <a href="https://jenkins.autotests.cloud/job/diploma_api_tokareva/3/allure/">Allure Report</a></h3>
-<a href=""><img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/jenkinsAllureReport.png" wight="500" height="450"/></a>
+<a href=""><img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/jenkinsAllureReport.png" style="max-width: 100%;"/></a>
 
 <h3>Результат выполнения теста</h3>
-<a title="allureResults"><img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/jenkinsResult.png" wight=700" height="500"/></a>
+<a title="allureResults"><img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/jenkinsResult.png" style="max-width: 100%;"/></a>
 
 <h2><img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/AllureTestOps.svg" wight="30" height="30"/><a>Интеграция с </a>
   <a href="https://allure.autotests.cloud/launch/30429/tree/485930?treeId=0">Allure TestOps </a></h2>
       
 Сборка имеет интеграцию `Jenkins` с `Allure TestOps`. Результат выполнения автотестов отображается в `Allure TestOps` на `Dashboard` в `Allure TestOps` отображена статистика пройденных тестов.
-<img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/testOpsResult.png" wight="700" height="500"/>
+<img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/testOpsResult.png" style="max-width: 100%;"/>
 
 <h2><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jira.svg" wight="30" height="30"/><a>Интеграция</a>
   <a href="https://jira.autotests.cloud/browse/HOMEWORK-952">с Jira</a></h2>
 
 Выполнена интеграция `Allure TestOps` с `Jira`, в тикете отображается список автотестов и результаты их прогода.
-<img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/jiraResult.png" wight="800" height="600"/>
+<img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/jiraResult.png" style="max-width: 100%;"/>
 
 <h2><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Telegram.svg" wight="30" height="30"/>  Краткий отчет в Telegram</h2>
 
 После прогона их `Jenkins` в `Telegram` отправляется уведомление с кратким отчетом результатов пройденного тестирования.
-<a> <img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/telegramResult.png" wight="500" height="500"/></a>
+<a> <img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/telegramResult.png" style="max-width: 100%;"/></a>
