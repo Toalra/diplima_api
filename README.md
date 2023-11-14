@@ -26,6 +26,7 @@
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jira.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jira.svg" wight="40" height="40"/></a>
 
 <h2>🏁 Реализованные проверки</h2>
+<a class="heading-link" href="#-реализованные-проверки"></a>
 
 * Регистрация пользователя
 * Автотизация пользователя
@@ -43,6 +44,7 @@ gradle clean diploma_test
 
 <h2><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jenkins.svg" wight="30" height="30"/><a>Сборка в </a>
   <a href="https://jenkins.autotests.cloud/job/diploma_api_tokarevaa"> Jenkins</a></h2>
+  <a class="heading-link" href="#-сборка-в-jenkins"></a>
 <a title="jenkinsReport"><img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/commonJenkinsResult.png" wight="500" height="500"/></a>
 <h3><a>Overwies в </a>
 <a href="https://jenkins.autotests.cloud/job/diploma_api_tokareva/3/allure/">Allure Report</a></h3>
@@ -57,12 +59,8 @@ gradle clean diploma_test
 Сборка имеет интеграцию `Jenkins` с `Allure TestOps`. Результат выполнения автотестов отображается в `Allure TestOps` на `Dashboard` в `Allure TestOps` отображена статистика пройденных тестов.
 <img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/testOpsResult.png" wight="700" height="500"/>
 
-<h3>Тест-кейсы</h3>
-<a title="TestCases"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/testCasesLaunches.png" wight="700" height="500 /></a>
-
-
-<h2><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jira.svg" wight="30" height="30"/><a>Интеграция с </a>
-  <a href="https://jira.autotests.cloud/browse/HOMEWORK-952"> Jira</a></h2>
+<h2><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jira.svg" wight="30" height="30"/><a>Интеграция</a>
+  <a href="https://jira.autotests.cloud/browse/HOMEWORK-952">с Jira</a></h2>
 
 Выполнена интеграция `Allure TestOps` с `Jira`, в тикете отображается список автотестов и результаты их прогода.
 <img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/jiraResult.png" wight="800" height="600"/>
