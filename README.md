@@ -60,10 +60,9 @@ gradle clean diploma_test
 <h3>Тест-кейсы</h3>
 <a title="TestCases"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/testCasesLaunches.png" wight="700" height="500 /></a>
 
----
 
-<h2><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jira.svg" wight="30" height="30"/><a>Интеграция </a>
-  <a href="https://jira.autotests.cloud/browse/HOMEWORK-952"> с Jira</a></h2>
+<h2><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jira.svg" wight="30" height="30"/><a>Интеграция с </a>
+  <a href="https://jira.autotests.cloud/browse/HOMEWORK-952"> Jira</a></h2>
 
 Выполнена интеграция `Allure TestOps` с `Jira`, в тикете отображается список автотестов и результаты их прогода.
 <img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/jiraResult.png" wight="800" height="600"/>
