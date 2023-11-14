@@ -1,5 +1,5 @@
 <h1>Проект по автотестировани api для сайта reqres.in </h1>
-  <a <img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/logo.png" wight="200" height="200"/>
+  <a img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/logo.png" wight="200" height="200"/>
   
 <h2>Содержание</h2>
 <li><a href="#-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B">Использованные инструменты</a></li>
