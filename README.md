@@ -61,6 +61,7 @@ gradle clean diploma_test
 <a title="TestCases"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/testCasesLaunches.png" wight="700" height="500 /></a>
 
 ---
+
 <h2><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jira.svg" wight="30" height="30"/><a>Интеграция </a>
   <a href="https://jira.autotests.cloud/browse/HOMEWORK-952"> с Jira</a></h2>
 
