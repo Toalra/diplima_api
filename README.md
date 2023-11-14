@@ -9,36 +9,21 @@
 <li><a href="#--%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D1%81-allure-testops-">Интеграция с Allure TestOps</a></li>
 <li><a href="#--%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D1%81-jira">Интеграция с Jira</a></li>
 <li><a href="#--%D0%BA%D1%80%D0%B0%D1%82%D0%BA%D0%B8%D0%B9-%D0%BE%D1%82%D1%87%D0%B5%D1%82-%D0%B2-telegram">Краткий отчет в Telegram</a></li>
-<li><a href="#%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE--%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%BE%D0%BC-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0">Видео  примером запуска</a></li>
 
 <h2 tabindex="-1" id="user-content-computer-использованный-стек-технологий" dir="auto">💻 Использованные инструменты</h2>
   <a class="heading-link" href="#computer-использованный-стек-технологий"></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/AllureTestOps.svg"><img  src="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/AllureTestOps.svg" wight="40" height="40"/></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/Allure_Report.svg"><img src="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/Allure_Report.svg" wight="40" height="40"/></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/GitHub.svg"><img src="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/GitHub.svg" wight="40" height="40"/></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/Gradle.svg"><img src="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/Gradle.svg" wight="40" height="40"/></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/Intelij_IDEA.svg"><img src="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/Intelij_IDEA.svg" wight="40" height="40"/></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/JUnit5.svg"><img src="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/JUnit5.svg" wight="40" height="40"/></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/Java.svg"><img src="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/Java.svg" wight="40" height="40"/></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/Jenkins.svg"><img src="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/Jenkins.svg" wight="40" height="40"/></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/Selenide.svg"><img src="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/Selenide.svg" wight="40" height="40"/></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/Selenoid.svg"><img src="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/Selenoid.svg" wight="40" height="40"/></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/Telegram.svg"><img src="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/Telegram.svg" wight="40" height="40"/></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/Jira.svg"><img src="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/Jira.svg" wight="40" height="40"/></a>
-
-* Проект автотестов для компаниия Dats Team написан на языке `Java` с применением фреймворка для автотестирования `Selenide` и `JUnit 5`.
-* В качестве сборщика проекта использовался `Gradle`.
-* Удаленный запуск происходит в docker-контейнерах на базе `Selenoid`.
-* Для реадизации удаленного запуска применялся `Jenkins` с формированием отчета в `Allure`.
-* Краткие отчеты с результатами тестирования отправлятся в `Telegram` с использованием бота.
-* Применена интеграция с `Allure TestOps` и `Jira`
-
-В отчет `Allure` входит:
-* Описанные шаги тестов;
-* Скриншот страницы результата на последнем шаге;
-* Page Source;
-* Логи консоли браузера;
-* Видео с выполнением автотеста.
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/AllureTestOps.svg"><img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/AllureTestOps.svg" wight="40" height="40"/></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Allure_Report.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Allure_Report.svg" wight="40" height="40"/></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/GitHub.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/GitHub.svg" wight="40" height="40"/></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Gradle.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Gradle.svg" wight="40" height="40"/></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Intelij_IDEA.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Intelij_IDEA.svg" wight="40" height="40"/></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/JUnit5.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/JUnit5.svg" wight="40" height="40"/></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Java.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Java.svg" wight="40" height="40"/></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jenkins.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jenkins.svg" wight="40" height="40"/></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Selenide.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Selenide.svg" wight="40" height="40"/></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Selenoid.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Selenoid.svg" wight="40" height="40"/></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Telegram.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Telegram.svg" wight="40" height="40"/></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jira.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jira.svg" wight="40" height="40"/></a>
 
 <h2>🏁 Реализованные проверки</h2>
 
@@ -50,7 +35,7 @@
 
 <h2>▶️ Запуск автотестов</h2>
 <h3>Запуск автотестов из терминала</h3>
-При выполнении команды в терминале IntelliJ IDEA, тесты запустятся в удаленном браузере в `Selenoid`
+При выполнении локальной команды в терминале IntelliJ IDEA, тесты запустятся в удаленном браузере в `Selenoid`
 
 ```
 gradle clean diploma_test
@@ -87,7 +72,7 @@ java "-DconfigFile=notifications/config.json" -jar notifications/allure-notifica
 * `BASE_URL` – web-адрес тестируемого приложения.
 * `REMOTE_BROWSER_URL`  – адрес удаленного сервера для запуска автотестов.
 
-<h2><img src="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/logs/Jenkins.svg" wight="30" height="30"/><a>Сборка в </a>
+<h2><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jenkins.svg" wight="30" height="30"/><a>Сборка в </a>
   <a href="https://jenkins.autotests.cloud/job/dats.team_autotesting_tokareva_aliya"> Jenkins</a></h2>
 <a title="jenkinsReport"><img  src="https://github.com/Toalra/Diploma/blob/master/src/test/resources/media/results/jenkinsCommonResults.png" wight="500" height="500"/></a>
 <h3><a>Overwies в </a>
