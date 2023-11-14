@@ -41,37 +41,6 @@
 gradle clean diploma_test
 ```
 
-<h3>Запуск тестов на удаленном барузере</h3>
-Автотеты можно запустить также в терминале на удаленном браузере
-
-```
-gradle clean test -Denv=main
-```
-
-Запуск автотестов при переопределенных параметров запуска
-```
-clean
-main -DremoteUrl=${SELENOID_URL}
--DbaseUrl=${BASE_URL}
--DbrowserSize=${BROWSER_SIZE}
--Dbrowser=${BROWSER_NAME}
--Dbrowser_version="${BROWSER_VERSION}"
-```
-
-Запуск автотестов с использованием уведомления в `Telegram`
-
-```
-java "-DconfigFile=notifications/config.json" -jar notifications/allure-notifications-4.3.0.jar
-```
-
-<h3>Параметры сборок</h3>
-
-* `BROWSER_NAME` – браузер для выполнения автотестов. По-умолчанию - chrome.
-* `BROWSER_VERSION` – версия браузера для выполнения автотестов. По-умолчанию - 100.0.
-* `BROWSER_SIZE` – размер окна браузера. По-умолчанию - 1920x1200.
-* `BASE_URL` – web-адрес тестируемого приложения.
-* `REMOTE_BROWSER_URL`  – адрес удаленного сервера для запуска автотестов.
-
 <h2><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jenkins.svg" wight="30" height="30"/><a>Сборка в </a>
   <a href="https://jenkins.autotests.cloud/job/diploma_api_tokarevaa"> Jenkins</a></h2>
 <a title="jenkinsReport"><img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/commonJenkinsResult.png" wight="500" height="500"/></a>
@@ -84,12 +53,16 @@ java "-DconfigFile=notifications/config.json" -jar notifications/allure-notifica
 
 <h2><img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/AllureTestOps.svg" wight="30" height="30"/><a>Интеграция с </a>
   <a href="https://allure.autotests.cloud/launch/30429/tree/485930?treeId=0">Allure TestOps </a></h2>
-
+      
 Сборка имеет интеграцию `Jenkins` с `Allure TestOps`. Результат выполнения автотестов отображается в `Allure TestOps` на `Dashboard` в `Allure TestOps` отображена статистика пройденных тестов.
 <img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/testOpsResult.png" wight="700" height="500"/>
 
+<h3>Тест-кейсы</h3>
+<a title="TestCases"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/testCasesLaunches.png" wight="700" height="500 /></a>
+
+
 <h2><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jira.svg" wight="30" height="30"/><a>Интеграция</a>
-  <a href="https://jira.autotests.cloud/browse/HOMEWORK-952">с Jira</a></h2>
+  <a href="https://jira.autotests.cloud/browse/HOMEWORK-952"> с Jira</a></h2>
 
 Выполнена интеграция `Allure TestOps` с `Jira`, в тикете отображается список автотестов и результаты их прогода.
 <img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/jiraResult.png" wight="800" height="600"/>
@@ -97,4 +70,4 @@ java "-DconfigFile=notifications/config.json" -jar notifications/allure-notifica
 <h2><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Telegram.svg" wight="30" height="30"/>  Краткий отчет в Telegram</h2>
 
 После прогона их `Jenkins` в `Telegram` отправляется уведомление с кратким отчетом результатов пройденного тестирования.
-<a><img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/telegramResult.png" wight="500" height="500"/></a>
+<a> <img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/telegramResult.png" wight="500" height="500"/></a>
