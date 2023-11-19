@@ -39,7 +39,7 @@
 При выполнении локальной команды в терминале IntelliJ IDEA, тесты запустятся в удаленном браузере в `Selenoid`
 
 ```
-gradle clean diploma_test
+gradle clean diploma_api
 ```
 
 <h2><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jenkins.svg" wight="30" height="30"/><a>Сборка в </a>
