@@ -10,8 +10,8 @@ import static io.qameta.allure.Allure.step;
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static spec.Specs.updateUserRequestSpec;
-import static spec.Specs.updateUserResponseSpec;
+import static spec.SpecsUpdate.updateUserRequestSpec;
+import static spec.SpecsUpdate.updateUserResponseSpec;
 
 @Tag("updateUser")
 public class UpdateUserTest extends TestBase {

@@ -6,8 +6,8 @@ import org.junit.jupiter.api.Test;
 
 import static io.qameta.allure.Allure.step;
 import static io.restassured.RestAssured.given;
-import static spec.Specs.deleteUserRequestSpec;
-import static spec.Specs.deleteUserResponseSpec;
+import static spec.SpecsDelete.deleteUserRequestSpec;
+import static spec.SpecsDelete.deleteUserResponseSpec;
 
 @Tag("deleteUser")
 public class DeleteUserTest extends TestBase {

@@ -9,8 +9,8 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.logevents.SelenideLogger.step;
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static spec.Specs.registerRequestSpec;
-import static spec.Specs.registerResponseSpec;
+import static spec.SpecsRegister.registerRequestSpec;
+import static spec.SpecsRegister.registerResponseSpec;
 
 @Tag("registerUser")
 public class RegisterUserTest extends TestBase {

@@ -8,8 +8,8 @@ import static io.qameta.allure.Allure.step;
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static spec.Specs.createUserRequestSpec;
-import static spec.Specs.createUserResponseSpec;
+import static spec.SpecsCreate.createUserRequestSpec;
+import static spec.SpecsCreate.createUserResponseSpec;
 
 @Tag("createUser")
 public class CreateUserTest extends TestBase {
