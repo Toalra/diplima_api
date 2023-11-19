@@ -21,7 +21,6 @@
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Java.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Java.svg" wight="40" height="40"/></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jenkins.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jenkins.svg" wight="40" height="40"/></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Selenide.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Selenide.svg" wight="40" height="40"/></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Selenoid.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Selenoid.svg" wight="40" height="40"/></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Telegram.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Telegram.svg" wight="40" height="40"/></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jira.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jira.svg" wight="40" height="40"/></a>
 
@@ -36,7 +35,7 @@
 
 <h2>▶️ Запуск автотестов</h2>
 <h3>Запуск автотестов из терминала</h3>
-При выполнении локальной команды в терминале IntelliJ IDEA, тесты запустятся в удаленном браузере в `Selenoid`
+Автотесты API можно запустить в терминале IntelliJ IDEA
 
 ```
 gradle clean diploma_api
