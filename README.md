@@ -43,7 +43,7 @@ gradle clean diploma_api
 ```
 
 <h2><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jenkins.svg" wight="30" height="30"/><a>Сборка в </a>
-  <a href="https://jenkins.autotests.cloud/job/diploma_api_tokarevaa"> Jenkins</a></h2>
+  <a href="https://jenkins.autotests.cloud/job/diploma_api_tokareva"> Jenkins</a></h2>
   <a class="heading-link" href="#-сборка-в-jenkins"></a>
 <a title="jenkinsReport"><img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/commonJenkinsResult.png" style="max-width: 100%;"/></a>
 <h3><a>Overwies в </a>
@@ -54,7 +54,7 @@ gradle clean diploma_api
 <a title="allureResults"><img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/jenkinsResult.png" style="max-width: 100%;"/></a>
 
 <h2><img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/AllureTestOps.svg" wight="30" height="30"/><a>Интеграция с </a>
-  <a href="https://allure.autotests.cloud/launch/30429/tree/485930?treeId=0">Allure TestOps </a></h2>
+  <a href="https://allure.autotests.cloud/launch/31925">Allure TestOps </a></h2>
       
 Сборка имеет интеграцию `Jenkins` с `Allure TestOps`. Результат выполнения автотестов отображается в `Allure TestOps` на `Dashboard` в `Allure TestOps` отображена статистика пройденных тестов.
 <img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/testOpsResult.png" style="max-width: 100%;"/>
