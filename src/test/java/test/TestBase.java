@@ -13,8 +13,4 @@ public class TestBase {
         RestAssured.baseURI = "https://reqres.in";
         RestAssured.basePath = "/api";
     }
-    @AfterEach
-    void shutDown() {
-        closeWebDriver();
-    }
 }
