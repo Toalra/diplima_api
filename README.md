@@ -1,4 +1,4 @@
-<h1>Проект по автотестировани api для сайта reqres.in </h1>
+<h1><a>Проект по автотестировани api для сайта</a><a href="https://reqres.in/"> reqres.in </a></h1>
   <a><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/logo.png" wight="200" height="200"/></a> 
   
 <h2>Содержание</h2>
@@ -21,7 +21,6 @@
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Java.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Java.svg" wight="40" height="40"/></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jenkins.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jenkins.svg" wight="40" height="40"/></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Selenide.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Selenide.svg" wight="40" height="40"/></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Selenoid.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Selenoid.svg" wight="40" height="40"/></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Telegram.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Telegram.svg" wight="40" height="40"/></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jira.svg"><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jira.svg" wight="40" height="40"/></a>
 
@@ -36,14 +35,14 @@
 
 <h2>▶️ Запуск автотестов</h2>
 <h3>Запуск автотестов из терминала</h3>
-При выполнении локальной команды в терминале IntelliJ IDEA, тесты запустятся в удаленном браузере в `Selenoid`
+Автотесты API можно запустить в терминале IntelliJ IDEA
 
 ```
-gradle clean diploma_test
+gradle clean diploma_api
 ```
 
 <h2><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jenkins.svg" wight="30" height="30"/><a>Сборка в </a>
-  <a href="https://jenkins.autotests.cloud/job/diploma_api_tokarevaa"> Jenkins</a></h2>
+  <a href="https://jenkins.autotests.cloud/job/diploma_api_tokareva"> Jenkins</a></h2>
   <a class="heading-link" href="#-сборка-в-jenkins"></a>
 <a title="jenkinsReport"><img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/commonJenkinsResult.png" style="max-width: 100%;"/></a>
 <h3><a>Overwies в </a>
@@ -54,7 +53,7 @@ gradle clean diploma_test
 <a title="allureResults"><img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/jenkinsResult.png" style="max-width: 100%;"/></a>
 
 <h2><img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/AllureTestOps.svg" wight="30" height="30"/><a>Интеграция с </a>
-  <a href="https://allure.autotests.cloud/launch/30429/tree/485930?treeId=0">Allure TestOps </a></h2>
+  <a href="https://allure.autotests.cloud/launch/31925">Allure TestOps </a></h2>
       
 Сборка имеет интеграцию `Jenkins` с `Allure TestOps`. Результат выполнения автотестов отображается в `Allure TestOps` на `Dashboard` в `Allure TestOps` отображена статистика пройденных тестов.
 <img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/testOpsResult.png" style="max-width: 100%;"/>
