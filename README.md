@@ -1,4 +1,4 @@
-<h1>Проект по автотестировани api для сайта reqres.in </h1>
+<h1><a>Проект по автотестировани api для сайта</a><a href="https://reqres.in/"> reqres.in </a></h1>
   <a><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/logo.png" wight="200" height="200"/></a> 
   
 <h2>Содержание</h2>
