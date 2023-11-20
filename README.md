@@ -61,7 +61,7 @@ gradle clean diploma_api
 <h2><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Jira.svg" wight="30" height="30"/><a>Интеграция</a>
   <a href="https://jira.autotests.cloud/browse/HOMEWORK-952">с Jira</a></h2>
 
-Выполнена интеграция `Allure TestOps` с `Jira`, в тикете отображается список автотестов и результаты их прогода.
+Выполнена интеграция `Allure TestOps` с `Jira`, в тикете отображается список автотестов и результаты их прогона.
 <img  src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/results/jiraResult.png" style="max-width: 100%;"/>
 
 <h2><img src="https://github.com/Toalra/diplima_api/blob/master/src/test/resources/media/logs/Telegram.svg" wight="30" height="30"/>  Краткий отчет в Telegram</h2>
